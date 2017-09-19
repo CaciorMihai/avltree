@@ -1,0 +1,10 @@
+This is a generic self-balancing binary search tree.
+
+This structure uses void pointers for the value stored. You can define what
+data type you want to use. You have to write three functions for your data type:
+create, destroy and compare. In example.c there are already implemented functions
+for long and string data types.
+
+There are no pointers to NULL. A dummy done named nil replaces the NULL pointer.
+
+This tree is also a sorted double-linked list formed from all the nodes.
